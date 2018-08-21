@@ -1,0 +1,61 @@
+doctype html
+
+head
+    meta(charset="utf-8")
+    link(rel="stylesheet" type="text/css" href="./style.css")
+    link(href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet")
+body
+    .container
+        .header
+            h1 Nui's privacyloaded Blog
+            hr
+
+
+        .content
+            section
+                .wrapper
+                    .text
+                        h4 Bester Bürger
+                        p Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    #map
+                        .privacyPlaceholder
+                            img(src='./img/map.png')
+                            span Klick, um Google Maps nachzuladen
+                #disqus_thread
+                    .privacyPlaceholder
+                        .flexDiv
+                            img(src='./img/disqus-social-icon-blue-transparent.png')
+                            span Klick, um Disqus nachzuladen
+
+                hr
+            section
+                .wrapper
+                    .bild
+                        img(src='./img/tower.jpg')
+                    .text
+                        h4 Zweiter Post
+                        p Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                hr
+                .wrapper
+                    .slider
+                        .sliderContent
+                            #sliderSlides
+                                .slide
+                                    img(src='./img/blumentopf.jpg')
+                                .slide
+                                    img(src='./img/tower.jpg')
+                                .slide
+                                    img(src='./img/mond.jpg')
+                                .slide
+                                    img(src='./img/palme.jpg')
+                                .slide
+                                    img(src='./img/see.jpg')
+                        button#sliderPrevious
+                            | <-
+                        button#sliderNext
+                            | ->
+                hr
+
+        .footer
+    script(src='./ba_privacyload.js')
+    script(src='./slider.js')
