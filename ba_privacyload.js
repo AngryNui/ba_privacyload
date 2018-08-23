@@ -65,7 +65,7 @@ function initPrivacyLoad() {
     privacySettings.onclick = function(){toggleWelcome()};
     document.body.style.overflow = 'hidden';
     privacyWelcome.id = 'privacyWelcome';
-    privacyWelcome.innerHTML += '<div id="privacyWrapper"><h1>Privacyload</h1><p>Hallo, welche datenschutzrelevante Scripte möchtest du laden?</p></div>';
+    privacyWelcome.innerHTML += '<div id="privacyWrapper"><h1>Privacyload<span id="info">?<div id="infoBox"><p>Warum werde ich vor die Auswahl gestellt?</p>Wir möchten, dass du die Möglichkeit hast, zu entscheiden welche Daten du an wen weiter gibst.</div></span></h1><p>Hallo, welche datenschutzrelevante Scripte möchtest du laden?</p></div>';
     document.body.appendChild(privacyWelcome);
     var privacyWrapper = document.getElementById('privacyWrapper');
     for( var i = 0; i < privacyJSON.length; i++) {
